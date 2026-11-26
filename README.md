@@ -1,43 +1,41 @@
 # Michael Alves
 
-**Python & Applied AI · Aspiring AI Engineer · Madrid, Spain**
+**Junior Python & applied AI · Madrid, Spain**
 
-[Español](README.es.md) · [LinkedIn](https://www.linkedin.com/in/michael-alves-do-nascimento-356b43340/)
+[Español](README.es.md) · [LinkedIn](https://www.linkedin.com/in/michael-alves-do-nascimento-356b43340/) · [X](https://x.com/AlvessMichaell)
 
-I am transitioning into **Python development and applied AI**, with the goal of building a career in AI engineering. I am currently learning Python fundamentals and bringing my experience in business automation into this new stage.
+I come from digital marketing and business automation (Google Ads, tracking, n8n).
+Now I am learning Python and building small AI tools that I use every day.
+I am doing a Master's in AI in Madrid (started October 2026). I am looking for a first junior role in Python or applied AI.
 
-## Where I am now
+## What I have built
 
-- Studying Python fundamentals through **Python Impressionador**, by Hashtag Treinamentos.
-- Starting to use GitHub to document my learning and projects.
-- Bringing practical experience with customer-service workflows, lead management and business processes.
+| Project | What it does | How I checked it |
+|---|---|---|
+| [live-lecture-translator](https://github.com/MichaelEs-Cod/live-lecture-translator) | Translates a live class from Spanish or English to Portuguese, about 2 seconds after each sentence. It runs 100% on a 6 GB laptop GPU (Whisper + TranslateGemma in Ollama). No audio is saved. | 38 automated tests (pytest) and a 25-minute test run |
+| [professor-claude](https://github.com/MichaelEs-Cod/professor-claude) | Turns the material of each class into study pages in Spanish, Portuguese and English, with offline audio, quizzes and spaced review. | Tests in a headless browser. In daily use since October 2026 |
+| [claude-skill-advanced-tracking](https://github.com/MichaelEs-Cod/claude-skill-advanced-tracking) | Sets up website tracking that respects cookie consent (GTM, GA4, Google Ads, Meta Pixel). | An end-to-end test (Playwright) on the live page, with 4 visitor types |
+| [build-in-public](https://github.com/MichaelEs-Cod/build-in-public) | My build log: what I build, why, the decisions and the lessons. No source code there, on purpose. | Real numbers in every page |
 
-## Learning direction
+Every project README has the same parts: the problem, what I built, a demo, how to run it, how to check it, and the known limits.
 
-These are my study goals, not a list of skills I already master:
+## How I work with AI
 
-1. Consolidate Python fundamentals and practise by solving small problems.
-2. Learn Git and GitHub, SQL, HTTP and APIs.
-3. Build Python applications with clear documentation and tests.
-4. Progress to applied AI: model APIs, LLM applications, retrieval-augmented generation (RAG) and agents.
-5. Learn to evaluate, deploy and maintain those applications.
+I build with Claude Code, an AI coding agent. The AI writes most of the code.
+My part: I choose the problem, set the rules (privacy, cost, what needs my approval), ask for tests, read the result and use it every day.
+Each README says what the AI did and what I did. I am a beginner in Python, and I study the code these projects produce.
 
-My next professional goal is a **junior Python development opportunity or an entry-level role within an applied AI team**, supported by projects that demonstrate my skills.
+## What I am building next
 
-## Experience I bring
+Three small backend projects, one at a time. Each one has tests and a list of known limits.
 
-As a co-founder and former partner at **4 Side Assessoria** (June 2024 - June 2026), I worked on:
+1. **Support message triage**: an API gets a customer message, an AI model returns the category and the priority as JSON, and the system keeps working when the model fails. With a test set of 50 messages to measure the quality.
+2. **Stock API**: two people try to buy the last item at the same time, and only one can get it. With database transactions and a test for this case.
+3. **Subscriptions with Stripe (test mode)**: webhooks, and the same payment event never counts twice.
 
-- AI-assisted WhatsApp customer service and lead qualification with n8n, using SPIN Selling to structure conversations.
-- Calendar integrations, appointment booking, automated follow-ups and lead organisation in NocoDB.
-- Digital marketing using Google Ads, Meta Ads and Google Business Profile.
+## Background
 
-During a service engagement with **Ileva Gestão Inteligente - FIAP** (January - March 2026), I developed a prospecting workflow that organised public Brazilian company data by incorporation date and business activity (CNAE), preparing spreadsheets for the sales team.
-
-These are descriptions of previous professional work. Client implementations are not included in this repository.
-
-## Building in public
-
-This repository is my profile introduction. As I build projects, I will publish their code and explain the problem, my contribution, how to run the solution, how I checked it and what I learned.
+- Co-founder and partner at a small marketing agency (June 2024 – June 2026): AI-assisted WhatsApp customer service and lead qualification with n8n, calendar and CRM automations, Google Ads and Meta Ads.
+- Languages: Portuguese (native), Spanish (intermediate), English (basic, improving).
 
 [Connect with me on LinkedIn](https://www.linkedin.com/in/michael-alves-do-nascimento-356b43340/)

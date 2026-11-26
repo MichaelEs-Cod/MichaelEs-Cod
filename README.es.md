@@ -1,43 +1,41 @@
 # Michael Alves
 
-**Python e IA aplicada · En formación para ingeniería de IA · Madrid, España**
+**Python junior e IA aplicada · Madrid, España**
 
-[English](README.md) · [LinkedIn](https://www.linkedin.com/in/michael-alves-do-nascimento-356b43340/)
+[English](README.md) · [LinkedIn](https://www.linkedin.com/in/michael-alves-do-nascimento-356b43340/) · [X](https://x.com/AlvessMichaell)
 
-Estoy en transición hacia el **desarrollo Python y la IA aplicada**, con el objetivo de construir una carrera en ingeniería de IA. Actualmente estudio los fundamentos de Python y aporto mi experiencia en automatización de procesos a esta nueva etapa.
+Vengo del marketing digital y de la automatización de negocios (Google Ads, medición, n8n).
+Ahora aprendo Python y construyo herramientas pequeñas con IA que uso cada día.
+Estudio un Máster en IA en Madrid (desde octubre de 2026). Busco un primer puesto junior de Python o de IA aplicada.
 
-## Dónde estoy ahora
+## Lo que he construido
 
-- Estudiando los fundamentos de Python en **Python Impressionador**, de Hashtag Treinamentos.
-- Empezando a utilizar GitHub para documentar mi aprendizaje y mis proyectos.
-- Aportando experiencia práctica en flujos de atención al cliente, gestión de leads y procesos comerciales.
+| Proyecto | Qué hace | Cómo lo comprobé |
+|---|---|---|
+| [live-lecture-translator](https://github.com/MichaelEs-Cod/live-lecture-translator) | Traduce una clase en directo del español o del inglés al portugués, unos 2 segundos después de cada frase. Funciona 100 % en la GPU de 6 GB de un portátil (Whisper + TranslateGemma en Ollama). No guarda audio. | 38 pruebas automáticas (pytest) y una prueba de 25 minutos |
+| [professor-claude](https://github.com/MichaelEs-Cod/professor-claude) | Convierte el material de cada clase en páginas de estudio en español, portugués e inglés, con audio sin conexión, cuestionarios y repaso espaciado. | Pruebas en un navegador sin ventana. En uso diario desde octubre de 2026 |
+| [claude-skill-advanced-tracking](https://github.com/MichaelEs-Cod/claude-skill-advanced-tracking) | Configura la medición de una web respetando el consentimiento de cookies (GTM, GA4, Google Ads, Meta Pixel). | Una prueba de extremo a extremo (Playwright) en la página publicada, con 4 tipos de visitante |
+| [build-in-public](https://github.com/MichaelEs-Cod/build-in-public) | Mi diario de construcción: qué construyo, por qué, las decisiones y las lecciones. Sin código fuente, a propósito. | Números reales en cada página |
 
-## Dirección de aprendizaje
+Cada README tiene las mismas partes: el problema, lo que construí, una demo, cómo ejecutarlo, cómo comprobarlo y los límites conocidos.
 
-Estos son mis objetivos de estudio, no una lista de competencias que ya domino:
+## Cómo trabajo con IA
 
-1. Consolidar los fundamentos de Python y practicar resolviendo pequeños problemas.
-2. Aprender Git y GitHub, SQL, HTTP y APIs.
-3. Construir aplicaciones Python con documentación clara y pruebas.
-4. Avanzar hacia IA aplicada: APIs de modelos, aplicaciones con LLM, generación aumentada por recuperación (RAG) y agentes.
-5. Aprender a evaluar, desplegar y mantener estas aplicaciones.
+Construyo con Claude Code, un agente de programación con IA. La IA escribe la mayor parte del código.
+Mi parte: elijo el problema, pongo las reglas (privacidad, coste, qué necesita mi aprobación), pido pruebas, leo el resultado y lo uso cada día.
+Cada README dice qué hizo la IA y qué hice yo. Soy principiante en Python y estudio el código de estos proyectos.
 
-Mi próximo objetivo profesional es una **oportunidad júnior en desarrollo Python o una posición inicial en un equipo de IA aplicada**, respaldada por proyectos que demuestren mis competencias.
+## Lo próximo
 
-## Experiencia que aporto
+Tres proyectos pequeños de backend, uno cada vez. Cada uno con pruebas y una lista de límites conocidos.
 
-Como cofundador y antiguo socio de **4 Side Assessoria** (junio de 2024 - junio de 2026), trabajé en:
+1. **Clasificación de mensajes de soporte**: una API recibe el mensaje de un cliente, un modelo de IA devuelve la categoría y la prioridad en JSON, y el sistema sigue funcionando si el modelo falla. Con un conjunto de 50 mensajes para medir la calidad.
+2. **API de stock**: dos personas intentan comprar la última unidad a la vez, y solo una la consigue. Con transacciones de base de datos y una prueba de ese caso.
+3. **Suscripciones con Stripe (modo de prueba)**: webhooks, y el mismo evento de pago nunca cuenta dos veces.
 
-- Atención y cualificación de leads por WhatsApp con IA y n8n, utilizando SPIN Selling para estructurar las conversaciones.
-- Integraciones con calendarios, reserva de citas, seguimientos automáticos y organización de leads en NocoDB.
-- Marketing digital con Google Ads, Meta Ads y Perfil de Empresa en Google.
+## Experiencia
 
-En una prestación de servicios para **Ileva Gestão Inteligente - FIAP** (enero - marzo de 2026), desarrollé un flujo de prospección que organizaba datos públicos de empresas brasileñas por fecha de constitución y actividad económica (CNAE), preparando hojas de cálculo para el equipo comercial.
-
-Estas descripciones corresponden a trabajos profesionales anteriores. Las implementaciones de los clientes no están incluidas en este repositorio.
-
-## Aprender y construir en público
-
-Este repositorio contiene mi presentación. A medida que construya proyectos, publicaré su código y explicaré el problema, mi aportación, cómo ejecutar la solución, cómo la comprobé y qué aprendí.
+- Cofundador y socio de una pequeña agencia de marketing (junio de 2024 – junio de 2026): atención al cliente por WhatsApp con IA y cualificación de leads con n8n, automatizaciones de agenda y CRM, Google Ads y Meta Ads.
+- Idiomas: portugués (nativo), español (intermedio), inglés (básico, mejorando).
 
 [Conecta conmigo en LinkedIn](https://www.linkedin.com/in/michael-alves-do-nascimento-356b43340/)
